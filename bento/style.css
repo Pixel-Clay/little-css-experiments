@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 
+
+
 .bento-bg {
     background-image: url("https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2400");
     background-repeat: no-repeat;
@@ -62,4 +64,32 @@ li a:hover {
   background-size: auto;
   background: -webkit-linear-gradient(#46307b, #fc008f);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;}
+  -webkit-text-fill-color: transparent;
+}
+
+h1 {
+  align-content: center;
+  text-align: center;
+  color: #000;
+  font-family: 'Dela Gothic One', sans-serif;
+  font-size: 72pt;
+}
+
+
+.boujee-text {
+  --bg-size: 400%;
+  --color-one: hsl(15 90% 55%);
+  --color-two: hsl(110, 95%, 55%);
+  background: linear-gradient(
+                90deg,
+                var(--color-one),
+                var(--color-two),
+                var(--color-one)
+              ) 0 0 / var(--bg-size) 100%;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: move-bg 8s infinite linear;
+}
+
+
