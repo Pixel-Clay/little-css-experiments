@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+.bento-bg {
+    background-image: url("https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2400");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70% 50%;
+    height: 140vh;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: #170034;
+    color: #fff;
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 20pt;
+    height: 32pt;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    overflow: hidden;
+}
+
+li {
+  float: left;
+  vertical-align: middle;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0px 14px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #fc018e;
+  
+}
+
+.active {
+  color: transparent;
+  background-clip: text;
+  background-size: auto;
+  background: -webkit-linear-gradient(#fc008f, #46307b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.active:hover {
+  color: transparent;
+  background-clip: text;
+  background-size: auto;
+  background: -webkit-linear-gradient(#46307b, #fc008f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;}
